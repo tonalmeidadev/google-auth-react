@@ -1,7 +1,9 @@
+import { SignIn } from './pages/SignIn'
+
+import './styles/global.scss'
+
 export default function App() {
   return (
-    <div>
-      <h1>Iniciando projeto</h1>
-    </div>
+    <SignIn />
   )
 }

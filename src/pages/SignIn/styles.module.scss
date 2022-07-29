@@ -1,0 +1,48 @@
+.container {
+  flex: 1;
+  height: 100vh;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title {
+    font-weight: 700;
+  }
+
+  &__headline {
+    margin: 2rem 0;
+    color: var(--caption);
+  }
+}
+
+.user {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  &__photo {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__email {
+    margin: 0.5rem 0 2rem;
+    color: var(--caption);
+  }
+}
